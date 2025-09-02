@@ -11,5 +11,14 @@ public class MonsterMovement : MonoBehaviour
         {
             anim.SetTrigger("Jump");
         }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            anim.SetBool("Crunch", true);
+        }
+        else if (Input.GetKeyUp(KeyCode.C))
+        {
+            anim.SetBool("Crunch", false);
+        }
+
     }
 }
