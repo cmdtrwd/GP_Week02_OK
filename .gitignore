@@ -1,0 +1,17 @@
+/Library/
+/Logs/
+/Temp/
+/Packages/
+/UserSettings/
+/.vscode/
+/Assets/Scripts/*.meta
+/ProjectSettings/
+*.meta
+*.csproj
+*.sln
+*.asset
+*.inputactions
+
+/Assets/*
+
+!/Assets/Scripts/
